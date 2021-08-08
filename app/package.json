@@ -1,5 +1,5 @@
 {
-  "homepage": "http://webDesignMumeishon.github.io/movie-app"
+  "homepage": "http://webDesignMumeishon.github.io/movie-app",
   "name": "12-react-redux",
   "version": "1.0.0",
   "dependencies": {
@@ -18,6 +18,8 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
