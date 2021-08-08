@@ -1,0 +1,181 @@
+
+.container{
+  position: relative;
+  height: 85vh;
+  width: 65%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+}
+
+.iconTitleStyling{
+  position: relative;
+  top: 8px;
+  left: 7px;
+}
+
+.footerStyling{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container2{
+  position: relative;
+  display: flex;
+}
+
+.additinalInfo{
+  margin-top: 40px;
+}
+.additinalInfo > p{
+  margin: 0px;
+}
+
+
+.iconsClass{
+  display: flex;
+  color: white !important;
+  width: 35%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.iconsClass > a{
+  color: white;
+}
+
+.movieSection{
+  display: flex;
+  width: 100%;
+  margin-left: 15px;
+  flex-direction: column;
+}
+
+.movieSection > p{
+  margin: 0px;
+}
+
+.text{
+  position: relative;
+  font-size: 40px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  color: #FFFFFF;
+}
+
+.imgBackgroung{
+  position: relative;
+  height: 290px;
+  border-radius: 10px;
+}
+
+.container::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../img/background-image-movie.jpg');
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+/* -------------------------------------------{RESPONSIVE STYLING}-------------------------------------------- */
+
+@media screen and (max-width: 600px) {
+  
+.container{
+  position: relative;
+  height: 100%;
+  width: 85%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  color: #FFFFFF;
+}
+
+.iconTitleStyling{
+  position: relative;
+  top: 8px;
+  left: 7px;
+}
+
+.footerStyling{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container2{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.additinalInfo{
+  margin-top: 40px;
+}
+.additinalInfo > p{
+  margin: 0px;
+}
+
+
+.iconsClass{
+  display: flex;
+  color: white !important;
+  width: 50%;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.iconsClass > a{
+  color: white;
+}
+
+.movieSection{
+  display: flex;
+  width: 100%;
+  margin-left: 15px;
+  flex-direction: column;
+}
+
+.movieSection > p{
+  margin: 0px;
+}
+
+.text{
+  position: relative;
+  font-size: 35px;
+  text-align: center;
+  transition: all 0.3s ease 0s;
+  color: #FFFFFF;
+}
+
+.imgBackgroung{
+  position: relative;
+  height: 290px;
+  border-radius: 10px;
+}
+
+.container::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background-image: url('../../img/background-image-movie.jpg');
+  background-size: cover;
+  background-position: top center;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+}
+
