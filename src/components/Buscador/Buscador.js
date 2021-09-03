@@ -4,8 +4,6 @@ import { Link } from 'react-router-dom';
 import './Buscador.css';
 import {addMovieFavorite, getMovies} from '../../actions/index.js'
 
-
-
 export class Buscador extends Component {
   constructor(props) {
     super(props);
