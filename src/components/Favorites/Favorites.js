@@ -13,10 +13,8 @@ export class ConnectedList extends Component {
         <ul className={styles.container}>
           {this.props.movies.moviesFavourites.map(movie => 
           <li className={styles.movieItem}>
-
             <span>{movie.title} </span>
             <button className={styles.btn} onClick={() => this.props.removeMovieFavorite(movie.id)}>X</button> 
-              
           </li>)}
         </ul>
       </div>
